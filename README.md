@@ -26,17 +26,17 @@
   * 유효기간이 없고 영구적으로 이용 가능하며 필요할 때 언제든 사용 가능(Cookie와 차이점-서버 접속시에 자동 송신)
   
   1. 데이터 추가 방법 3가지  
-  function init() { //key, value
-	localStorage.Test = "Sample";
-	localStorage["Test"] = "Sample";
-	localStorage.setItem("Test", "Sample");
+  function init() { //key, value  
+	localStorage.Test = "Sample";  
+	localStorage["Test"] = "Sample";  
+	localStorage.setItem("Test", "Sample");  
   }
   
   2. 데이터 출력 방법 3가지  
-  function init() {
-	var val = localStorage.Test;
-	var val = localStorage["Test"];
-	var val = localStorage.getItem("Test");
+  function init() {  
+	var val = localStorage.Test;  
+	var val = localStorage["Test"];  
+	var val = localStorage.getItem("Test");  
 
 	//취득 데이터 출력
 	document.querySelector("#result").innerHTML = val;
@@ -44,12 +44,12 @@
   
   3. 데이터 삭제하기(화면 출력시 undefined표시)  
   function init() {
-	//localStorage 데이터 삭제
-	localStorage.removeItem("Test"); 
-	//localStorage 데이터 취득
-	var val = localStorage.Test;
-	//취득 데이터 출력
-	document.querySelector("#result").innerHTML = val;
+	//localStorage 데이터 삭제  
+	localStorage.removeItem("Test");   
+	//localStorage 데이터 취득  
+	var val = localStorage.Test;  
+	//취득 데이터 출력  
+	document.querySelector("#result").innerHTML = val;  
   }
   
   *clear()를 사용해서 데이터 전부 삭제 가능 localStrage.clear();
