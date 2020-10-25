@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='Eclipse Web Tools Update Site - 2019-12' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1578325158000'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <children size='1'>
+    <child location='https://download.eclipse.org/webtools/downloads/drops/R3.16.0/R-3.16.0-20191210070716/repository/'/>
+  </children>
+</repository>

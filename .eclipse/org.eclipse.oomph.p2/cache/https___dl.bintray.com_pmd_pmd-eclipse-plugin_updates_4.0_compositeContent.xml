@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='PMD for Eclipse Update Site 4.0' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1545318854261'/>
+    <property name='p2.atomic.composite.loading' value='true'/>
+  </properties>
+  <children size='11'>
+    <child location='../../releases/4.0.8.v20151204-2156'/>
+    <child location='../../releases/4.0.9.v20160625-2101'/>
+    <child location='../../releases/4.0.10.v20160626-1043'/>
+    <child location='../../releases/4.0.11.v20170128-2103'/>
+    <child location='../../releases/4.0.12.v20170331-0813'/>
+    <child location='../../releases/4.0.13.v20170429-1921'/>
+    <child location='../../releases/4.0.14.v20170528-1456'/>
+    <child location='../../releases/4.0.15.v20170624-2134'/>
+    <child location='../../releases/4.0.16.v20180412-0833'/>
+    <child location='../../releases/4.0.17.v20180801-1551'/>
+    <child location='../../releases/4.0.18.v20181220-1448'/>
+  </children>
+</repository>
