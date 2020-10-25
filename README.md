@@ -1,15 +1,10 @@
 # 2020JSstudy
 
 
-## 20201025 Movie Seat Booking  
-[Movie Seat Booking](https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking)
+## 20201025 Movie Seat Booking(자리 예매 시스템)
+[Movie Seat Booking](https://github.com/bradtraversy/vanillawebprojects/tree/master/movie-seat-booking
 
-
-
-자리 예매 시스템을 만들어보자. 
-
-
-
+---------------------------------------------------------------------------------------------------------
 [] 원하는 영화를 선택할 수 있다.  
 [] 원하는 영화에 따라 티켓 가격이 달라진다.  
 [] 원하는 자리를 선택하고 해제할 수 있다.  
