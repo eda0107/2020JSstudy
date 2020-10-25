@@ -31,6 +31,7 @@
 	localStorage["Test"] = "Sample";  
 	localStorage.setItem("Test", "Sample");  
   }
+  ```
   
   2. 데이터 출력 방법 3가지  
   ```function init() {  
@@ -41,6 +42,7 @@
 	//취득 데이터 출력
 	document.querySelector("#result").innerHTML = val;
   }
+  ```
   
   3. 데이터 삭제하기(화면 출력시 undefined표시)  
  ``` function init() {
@@ -51,6 +53,7 @@
 	//취득 데이터 출력  
 	document.querySelector("#result").innerHTML = val;  
   }
+  ```
   
   *clear()를 사용해서 데이터 전부 삭제 가능 localStrage.clear();
   
