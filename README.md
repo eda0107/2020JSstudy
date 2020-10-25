@@ -48,11 +48,9 @@
   
   3. 데이터 삭제하기(화면 출력시 undefined표시)  
  ``` 
- function init() {
-	//localStorage 데이터 삭제  
-	localStorage.removeItem("Test");   
-	//localStorage 데이터 취득  
-	var val = localStorage.Test;  
+ function init() {    
+	localStorage.removeItem("Test"); //localStorage 데이터 삭제   
+	var val = localStorage.Test; //localStorage 데이터 취득  
 	//취득 데이터 출력  
 	document.querySelector("#result").innerHTML = val;  
   }
