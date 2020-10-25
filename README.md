@@ -25,14 +25,14 @@
   * 세션이 끊기거나 동일한 세션이 아니더라도 사용 가능(sessionStorage와 차이점-브라우저 탭이 닫기면 삭제)
   * 유효기간이 없고 영구적으로 이용 가능하며 필요할 때 언제든 사용 가능(Cookie와 차이점-서버 접속시에 자동 송신)
   
-  1. 데이터 추가 방법 3가지
+  1. 데이터 추가 방법 3가지  
   function init() { //key, value
 	localStorage.Test = "Sample";
 	localStorage["Test"] = "Sample";
 	localStorage.setItem("Test", "Sample");
   }
   
-  2. 데이터 출력 방법 3가지
+  2. 데이터 출력 방법 3가지  
   function init() {
 	var val = localStorage.Test;
 	var val = localStorage["Test"];
@@ -42,7 +42,7 @@
 	document.querySelector("#result").innerHTML = val;
   }
   
-  3. 데이터 삭제하기(화면 출력시 undefined표시)
+  3. 데이터 삭제하기(화면 출력시 undefined표시)  
   function init() {
 	//localStorage 데이터 삭제
 	localStorage.removeItem("Test"); 
